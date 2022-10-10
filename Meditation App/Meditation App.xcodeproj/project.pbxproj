@@ -25,6 +25,7 @@
 		CE067EA528CF269800D93D65 /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE067E9B28CF269800D93D65 /* Alegreya-Italic.ttf */; };
 		CE067EA628CF269800D93D65 /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE067E9C28CF269800D93D65 /* Alegreya-ExtraBold.ttf */; };
 		CE067EA728CF269800D93D65 /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE067E9D28CF269800D93D65 /* Alegreya-Bold.ttf */; };
+		CEED3D5428F41140006100EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED3D5328F41140006100EF /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		CE067E9B28CF269800D93D65 /* Alegreya-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Italic.ttf"; sourceTree = "<group>"; };
 		CE067E9C28CF269800D93D65 /* Alegreya-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBold.ttf"; sourceTree = "<group>"; };
 		CE067E9D28CF269800D93D65 /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
+		CEED3D5328F41140006100EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				CE067E7528CF235E00D93D65 /* AppDelegate.swift */,
 				CE067E7728CF235E00D93D65 /* SceneDelegate.swift */,
 				CE067E7928CF235E00D93D65 /* SinglnViewController.swift */,
+				CEED3D5328F41140006100EF /* MainViewController.swift */,
 				CE067E7B28CF235E00D93D65 /* Main.storyboard */,
 				CE067E7E28CF235F00D93D65 /* Assets.xcassets */,
 				CE067E8028CF235F00D93D65 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 				CE067E7A28CF235E00D93D65 /* SinglnViewController.swift in Sources */,
 				CE067E7628CF235E00D93D65 /* AppDelegate.swift in Sources */,
 				CE067E7828CF235E00D93D65 /* SceneDelegate.swift in Sources */,
+				CEED3D5428F41140006100EF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

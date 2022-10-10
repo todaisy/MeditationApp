@@ -149,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TEI-pI-LS9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232" y="106"/>
+            <point key="canvasLocation" x="2142.0289855072465" y="105.80357142857143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="91Q-Yf-MYi">
@@ -173,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y5L-Fa-Qu6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1867" y="106"/>
+            <point key="canvasLocation" x="2776.811594202899" y="105.80357142857143"/>
         </scene>
         <!--Singln View Controller-->
         <scene sceneID="KKJ-Lk-sLR">
@@ -280,12 +280,12 @@
             </objects>
             <point key="canvasLocation" x="609" y="745"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="JNb-ks-k9Y">
             <objects>
-                <viewController id="yLV-3k-rCJ" sceneMemberID="viewController">
+                <viewController id="yLV-3k-rCJ" customClass="MainViewController" customModule="Meditation_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wI5-4R-BRS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRS-P9-aFr">
@@ -358,7 +358,7 @@
                                 </cells>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="nTc-b8-que">
-                                <rect key="frame" x="20" y="366" width="374" height="496"/>
+                                <rect key="frame" x="20" y="366" width="374" height="417"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lKd-qV-u6r">
@@ -386,18 +386,23 @@
                                                     <color key="textColor" red="0.15536129470000001" green="0.19992446899999999" blue="0.20392349360000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Заголовок блока" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5X-j2-Bkl">
-                                                    <rect key="frame" x="45" y="65" width="134" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Краткое описание блока с двумя строчками" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5X-j2-Bkl">
+                                                    <rect key="frame" x="17" y="40" width="163" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="15"/>
                                                     <color key="textColor" red="0.15536129470000001" green="0.19992446899999999" blue="0.20392349360000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tk-9H-vcF">
-                                                    <rect key="frame" x="33" y="108" width="67" height="31"/>
+                                                    <rect key="frame" x="17" y="105" width="163" height="32"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.15536129470000001" green="0.19992446899999999" blue="0.20392349360000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="подробнее">
+                                                        <backgroundConfiguration key="background"/>
+                                                        <fontDescription key="titleFontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="15"/>
+                                                    </buttonConfiguration>
                                                 </button>
                                             </subviews>
                                         </collectionViewCellContentView>
@@ -408,8 +413,29 @@
                         <viewLayoutGuide key="safeArea" id="HSY-V8-rEl"/>
                         <color key="backgroundColor" red="0.15536129470000001" green="0.19992446899999999" blue="0.20392349360000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="Копия Logo" id="8si-t1-N6g"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5K-YY-Zd4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2043" y="745"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lOE-qt-9AE">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5DE-YJ-27T" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="ibv-29-Sia">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.15536129470000001" green="0.19992446899999999" blue="0.20392349360000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" name="white"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yLV-3k-rCJ" kind="relationship" relationship="viewControllers" id="yPd-Qa-7rM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qmb-Hi-9e5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1230.4347826086957" y="744.64285714285711"/>
         </scene>
@@ -420,6 +446,7 @@
         <image name="Logotype" width="120" height="145"/>
         <image name="background" width="375" height="735"/>
         <image name="flowers" width="375" height="224"/>
+        <image name="Копия Logo" width="120" height="145"/>
         <image name="Копия logotype" width="120" height="120"/>
         <namedColor name="white">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
